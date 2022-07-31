@@ -14,11 +14,17 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        \App\Models\Kategorija::create([
+            'naziv' => 'City Cars',
+            'opis' => 'Cars for easy city manoeuvring with good economy and easy driving characteristics.'
+        ]);
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        \App\Models\Automobil::create([
+            'naziv' => 'Renault Clio',
+            'opis' => 'Small hatchback, comfortable economic city car with plenty of fun and easy driving character.',
+            'cena' => 150,
+            'slika' => 'tesla.jpg',
+            'kategorija_id' => 1
+        ]);
     }
 }

@@ -6,10 +6,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a class="logo" href="index">Alex Rent</a>
+                        <a class="logo" href="/">Alex Rent</a>
                     </li>
-                    <li>
-                        <a class="nav-bar" href="login">Log In</a>
+                    <li>;
+                        <a class="nav-bar" href="/login">Log In</a>
                     </li>
                 </ul>
             </nav>
@@ -26,7 +26,7 @@
         <div class="register-div">
             <form class="register-form" action="/register" method="post">
                 @csrf
-                <!-- TODO: errors -->
+                <!-- TODO: dodati -->
                 <h2>REGISTER</h2>
                 <hr>
                 <p>Ime: <input type="text" required name="ime" /></p>

@@ -25,7 +25,8 @@
         <div class="login-div-slika"></div>
         <div class="login-div">
             <form class="login-form" action="login" method="post">
-                <!-- TODO: errors -->
+                @csrf
+                <x-errors />
                 <h2>LOGIN</h2>
                 <hr>
                 <p>Korisnicko ime: <input type="text" name="username" /></p>

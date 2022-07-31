@@ -1019,4 +1019,9 @@ button:hover {
 	color: #262626;
     text-decoration: none;
 }
+
+.error {
+	color: red;
+	font-size: 0.8rem;
+}
 /*footer-contact*/

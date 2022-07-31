@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Automobil extends Model
+class Korpa extends Model
 {
     use HasFactory;
     /**
@@ -13,9 +13,5 @@ class Automobil extends Model
      *
      * @var string
      */
-    protected $table = 'automobili';
-
-    public function findAll() {
-
-    }
+    protected $table = 'korpe';
 }
